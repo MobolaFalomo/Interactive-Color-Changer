@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  transition: background-color 0.5s ease;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#colorHistory {
+  margin-top: 20px;
+}
+
+#colorList {
+  list-style-type: none;
+  padding: 0;
+}
+
+#colorList li {
+  margin: 5px 0;
+  padding: 5px;
+  border: 1px solid #ccc;
+  width: 100px;
+  text-align: center;
+}
